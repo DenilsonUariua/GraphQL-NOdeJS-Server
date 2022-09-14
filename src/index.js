@@ -15,7 +15,7 @@ const server = new ApolloServer({
   typeDefs,
   resolvers
 });
-await mongoose.connect("mongodb+srv://denilson:denilson1@fires.yu5fn.mongodb.net/test?authSource=admin&replicaSet=atlas-vlj6t0-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true", {
+await mongoose.connect("", {
     useNewUrlParser: true,
     useUnifiedTopology: true
     });
